@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Number Game</title>
+  </head>
+  <body>
+    <label for="player-one">Player One</label>
+    <input type="number" id="player-one" />
+    <button type="button" id="player-one-button" onclick="playerOneNumber()">
+      Spara
+    </button>
+    <p id="result"></p>
+    <br />
+    <label for="player-two">Player Two</label>
+    <input type="number" id="player-two" />
+    <button type="button" id="player-two-button" onclick="playerTwoNumber()">
+      Gissa
+    </button>
+    <p id="answer"></p>
+    <button type="button" id="check-answer" onclick="checkAnswer()">
+      Check
+    </button>
+  </body>
+</html>
